@@ -1,0 +1,10 @@
+[VIC]
+SPI_Master_With_Single_CS_1.N_110_cascade_=ltout:in1
+SPI_Master_With_Single_CS_1.N_32_cascade_=ltout:in2
+SPI_Master_With_Single_CS_1.N_78_cascade_=ltout:in0
+SPI_Master_With_Single_CS_1.SPI_Master_1.N_44_cascade_=ltout:in2
+SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Bytece_0_0_cascade_=ltout:in0
+SPI_Master_With_Single_CS_1.SPI_Master_1.o_tx_ready2_cascade_=ltout:in0
+SPI_Master_With_Single_CS_1.SPI_Master_1.un2_0_cascade_=ltout:in0
+SPI_Master_With_Single_CS_1.SPI_Master_1.un2lto4_1_cascade_=ltout:in0
+SPI_Master_With_Single_CS_1.r_SM_CS_ns_i_0_o2_4_1_cascade_=ltout:in3

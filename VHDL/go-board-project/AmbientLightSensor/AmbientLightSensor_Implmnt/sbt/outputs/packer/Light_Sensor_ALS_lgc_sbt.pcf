@@ -1,0 +1,205 @@
+set_location IN_MUX_bfv_2_11_0_ 2 11 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_4_8_0_ 4 8 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_4_13_0_ 4 13 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_4_14_0_ 4 14 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_2_13_0_ 2 13 0 #ICE_CARRY_IN_MUX
+set_location CONSTANT_ONE_LUT4 2 8 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_4_THRU_LUT4_0 2 11 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_3_THRU_LUT4_0 2 11 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_2_THRU_LUT4_0 2 11 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_1_THRU_LUT4_0 2 11 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_0_THRU_LUT4_0 2 11 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_2_THRU_LUT4_0 4 8 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_1_THRU_LUT4_0 4 8 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_0_THRU_LUT4_0 4 8 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNI9V0F_0_SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_DV_REP_LUT4_0 5 13 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_SPI_Clk_THRU_LUT4_0 7 8 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_er_0_THRU_LUT4_0 6 13 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.o_RX_Count[0] 4 15 4 #SB_DFF
+set_location r_LED_Count_RNO[6] 2 13 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNI6G8I[0] 2 10 0 #SB_LUT4
+set_location r_ADC_Word_RNO[12] 4 14 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNIB3AM1[4] 5 9 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[2] 1 10 3 #SB_DFFS
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNO[0] 5 9 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[5] 1 10 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[3] 5 12 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count[1] 6 11 4 #SB_DFFS
+set_location SPI_Master_With_Single_CS_1.r_TX_Count_RNO[0] 4 10 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNIU10G[0] 4 9 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNI4CDH[0] 4 10 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_Trailing_Edge 5 10 0 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_RNO 6 8 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[6] 5 12 7 #SB_LUT4
+set_location r_LED_Count_cry_c[0] 2 13 0 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIUL3E_0[0] 5 11 5 #SB_LUT4
+set_location r_LED_Count[2] 2 13 2 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_SM_CS[1] 4 9 7 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.un3_w_master_rx_dv 4 15 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_c[1] 4 8 1 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO[1] 5 10 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk 6 8 6 #SB_DFFS
+set_location r_LED_Count_RNO[1] 2 13 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[0] 6 10 2 #SB_DFFR
+set_location r_ADC_Word[11] 5 14 5 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNIIM3J[0] 4 9 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[3] 5 12 2 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.r_CS_n 4 11 2 #SB_DFFS
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNO[3] 4 9 2 #SB_LUT4
+set_location r_LED_Count_RNO[4] 2 13 4 #SB_LUT4
+set_location r_ADC_Word[8] 5 14 2 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[6] 2 11 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[0] 5 9 6 #SB_DFFR
+set_location r_ADC_Word_RNO[10] 4 14 5 #SB_LUT4
+set_location un1_w_led_enable_cry_5_c_inv 4 13 5 #SB_LUT4
+set_location un1_w_led_enable_cry_1_c_inv 4 13 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_c[2] 2 11 2 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[4] 2 10 7 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.o_RX_Count_RNO[1] 4 15 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIB9T_0[2] 6 12 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[7] 5 12 3 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[3] 1 11 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_Trailing_Edge_RNO 5 10 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_DV 5 13 0 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_er[0] 6 13 1 #SB_DFFER
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[5] 5 12 6 #SB_LUT4
+set_location r_LED_Count_cry_c[5] 2 13 5 #SB_CARRY
+set_location r_LED_Count_RNO[0] 2 13 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[4] 4 8 4 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNIA2FF1[2] 6 9 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[1] 5 10 5 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIB9T_1[2] 6 12 7 #SB_LUT4
+set_location un1_w_led_enable_cry_0_c 4 13 0 #SB_CARRY
+set_location r_LED_Count[1] 2 13 1 #SB_DFF
+set_location r_ADC_Word[12] 4 14 2 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_c[5] 2 11 5 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_c[2] 4 8 2 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNIL5P53[2] 5 9 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[2] 5 12 1 #SB_DFFR
+set_location r_ADC_Word[6] 4 14 3 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNO_0[0] 4 10 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[0] 2 10 2 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNO[2] 4 9 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNO[1] 6 11 4 #SB_LUT4
+set_location un1_w_led_enable_cry_6_c 4 13 6 #SB_CARRY
+set_location un1_w_led_enable_cry_0_c_inv 4 13 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNO[0] 4 10 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNIN4G81[0] 2 9 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[3] 4 9 2 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[1] 5 12 4 #SB_LUT4
+set_location r_LED_Count[4] 2 13 4 #SB_DFF
+set_location r_ADC_Word_RNO[11] 5 14 5 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNIOFMD[6] 2 9 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO[3] 6 10 1 #SB_LUT4
+set_location un1_w_led_enable_cry_1_c 4 13 1 #SB_CARRY
+set_location r_ADC_Word_RNO[7] 4 14 7 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_c[1] 2 11 1 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[5] 1 10 5 #SB_DFFS
+set_location SPI_Master_With_Single_CS_1.o_RX_Count_RNO[0] 4 15 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[6] 5 12 7 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNIN2FO1[1] 2 10 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[0] 2 10 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.o_RX_Count[1] 4 15 1 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_TX_Ready 5 10 3 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[4] 5 12 0 #SB_LUT4
+set_location r_LED_Count_cry_c[2] 2 13 2 #SB_CARRY
+set_location r_LED_Count_RNO[7] 2 13 7 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_TX_Count_RNI4UJK[0] 4 10 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count[2] 6 11 1 #SB_DFFS
+set_location GND -1 -1 -1 #GND
+set_location un1_w_led_enable_cry_2_c_inv 4 13 2 #SB_LUT4
+set_location r_LED_Count[0] 2 13 0 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_c[4] 2 11 4 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_c[3] 4 8 3 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[1] 5 12 4 #SB_DFFR
+set_location un1_w_led_enable_cry_5_c 4 13 5 #SB_CARRY
+set_location un1_w_led_enable_cry_3_c 4 13 3 #SB_CARRY
+set_location r_ADC_Word[5] 4 14 4 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_TX_Count[0] 4 10 2 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[1] 2 10 6 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNO[1] 4 9 0 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNO[0] 5 10 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[4] 2 10 7 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[2] 4 9 1 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIB9T_2[2] 6 12 3 #SB_LUT4
+set_location un1_w_led_enable_cry_6_c_inv 4 13 6 #SB_LUT4
+set_location r_Master_TX_DV 2 9 4 #SB_DFF
+set_location r_LED_Count_cry_c[6] 2 13 6 #SB_CARRY
+set_location r_LED_Count_RNO[3] 2 13 3 #SB_LUT4
+set_location r_LED_Count[7] 2 13 7 #SB_DFF
+set_location r_ADC_Word_RNO[9] 4 14 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[2] 5 9 1 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIUL3E_1[0] 5 11 3 #SB_LUT4
+set_location r_ADC_Word_RNO[6] 4 14 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_c[0] 2 11 0 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[6] 2 11 6 #SB_DFFS
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNIAJHL1[4] 5 9 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIB9T[2] 6 12 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[5] 5 12 6 #SB_DFFR
+set_location un1_w_led_enable_cry_7_c_inv 4 13 7 #SB_LUT4
+set_location un1_w_led_enable_cry_2_c 4 13 2 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[1] 2 10 6 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNI9BJ31[2] 6 10 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[7] 5 12 3 #SB_LUT4
+set_location r_LED_Count_cry_c[3] 2 13 3 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_SPI_Clk 7 8 4 #SB_DFFS
+set_location r_LED_Count[3] 2 13 3 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_cry_c[0] 4 8 0 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO_0[3] 6 9 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO[0] 6 10 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_TX_Count[1] 4 10 6 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNI3DDL[0] 5 9 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNI9V0F[0] 6 12 4 #SB_LUT4
+set_location r_LED_Count_RNO[2] 2 13 2 #SB_LUT4
+set_location r_LED_Count[6] 2 13 6 #SB_DFF
+set_location r_ADC_Word_RNO[8] 5 14 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[3] 6 10 1 #SB_DFFR
+set_location un1_w_led_enable_cry_7_c 4 13 7 #SB_CARRY
+set_location r_ADC_Word[10] 4 14 5 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte[4] 5 12 0 #SB_DFFR
+set_location un1_w_led_enable_cry_4_c_inv 4 13 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNO[4] 4 8 4 #SB_LUT4
+set_location un1_w_led_enable_cry_7_c_RNI9E0A 4 14 0 #SB_LUT4
+set_location un1_w_led_enable_cry_3_c_inv 4 13 3 #SB_LUT4
+set_location r_LED_Count_RNO[5] 2 13 5 #SB_LUT4
+set_location r_ADC_Word[9] 4 14 6 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[1] 4 9 0 #SB_DFFR
+set_location r_ADC_Word_RNO[5] 4 14 4 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_cry_c[3] 2 11 3 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[3] 1 11 3 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_TX_Ready_RNO 5 10 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_n_RNO 4 11 2 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.r_CS_Inactive_Count_RNO[2] 1 10 3 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.o_RX_Byte_RNO[2] 5 12 1 #SB_LUT4
+set_location un1_w_led_enable_cry_4_c 4 13 4 #SB_CARRY
+set_location r_LED_Count_cry_c[4] 2 13 4 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count[0] 5 10 4 #SB_DFFS
+set_location SPI_Master_With_Single_CS_1.r_TX_Count_RNO[1] 4 10 6 #SB_LUT4
+set_location r_ADC_Word[7] 4 14 7 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNO[2] 6 11 1 #SB_LUT4
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_RX_Bit_Count_RNIUL3E[0] 5 11 4 #SB_LUT4
+set_location r_LED_Count_cry_c[1] 2 13 1 #SB_CARRY
+set_location SPI_Master_With_Single_CS_1.r_SM_CS_RNO[1] 4 9 7 #SB_LUT4
+set_location r_LED_Count[5] 2 13 5 #SB_DFF
+set_location SPI_Master_With_Single_CS_1.r_SM_CS[0] 4 10 5 #SB_DFFR
+set_location SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO[2] 5 9 1 #SB_LUT4
+set_io o_Segment2_A 100
+set_io o_Segment1_E 90
+set_io o_Segment2_D 95
+set_io o_Segment1_F 1
+set_io o_Segment1_B 4
+set_io o_SPI_CS_n 65
+set_io i_Clk 15
+set_io o_Segment2_G 96
+set_io o_Segment2_C 97
+set_io o_Segment1_G 2
+set_io o_Segment1_C 93
+set_io i_Switch_1 53
+set_io o_Segment2_F 8
+set_io o_Segment2_B 99
+set_io o_Segment1_D 91
+set_io o_SPI_MOSI 64
+set_io o_SPI_Clk 62
+set_io i_SPI_MISO 63
+set_io o_Segment2_E 94
+set_io o_Segment1_A 3

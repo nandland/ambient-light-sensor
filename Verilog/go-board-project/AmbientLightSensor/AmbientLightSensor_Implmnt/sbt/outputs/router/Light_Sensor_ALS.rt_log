@@ -1,0 +1,29 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2014.12.27052
+
+* Build Date:         Dec  8 2014 15:05:28
+
+* File Generated:     Mar 30 2019 10:36:33
+
+* Purpose:            Router runtime info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : C:\lscc\SBTools\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\SBTools\sbt_backend\devices\ICE40P01.dev C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\sbt\netlist\oadb-Light_Sensor_ALS C:\lscc\SBTools\sbt_backend\devices\ice40HX1K.lib C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\sbt\outputs\packer\Light_Sensor_ALS_pk.sdc --outdir C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\sbt\outputs\router --sdf_file C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\outputs\simulation_netlist\Light_Sensor_ALS_sbt.sdf --pin_permutation 
+I1203: Reading Design Light_Sensor_ALS
+I1202: Reading Architecture of device iCE40HX1K
+I1209: Started routing
+I1223: Total Nets : 127 
+I1212: Iteration  1 :    22 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+I1206: Completed routing
+I1204: Writing Design Light_Sensor_ALS
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 2 seconds

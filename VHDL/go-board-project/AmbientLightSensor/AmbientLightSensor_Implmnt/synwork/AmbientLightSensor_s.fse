@@ -1,0 +1,10 @@
+
+fsm_encoding {710021001} sequential
+
+fsm_state_encoding {710021001} IDLE {00}
+
+fsm_state_encoding {710021001} TRANSFER {01}
+
+fsm_state_encoding {710021001} CS_INACTIVE {10}
+
+fsm_registers {710021001} {r_SM_CS[1]}  {r_SM_CS[0]} 

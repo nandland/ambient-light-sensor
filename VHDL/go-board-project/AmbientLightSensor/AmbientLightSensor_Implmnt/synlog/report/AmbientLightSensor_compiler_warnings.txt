@@ -1,0 +1,11 @@
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":161:9:161:18|o_tx_ready is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":187:9:187:18|o_tx_ready is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":158:12:158:18|o_rx_dv is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":159:48:159:57|o_rx_count is not readable.  This may cause a simulation mismatch.
+@W: CG296 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":95:19:95:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":102:25:102:30|Referenced variable w_cpol is not in sensitivity list.
+@W: CG296 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":201:14:201:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":204:20:204:25|Referenced variable w_cpol is not in sensitivity list.
+@W: CL271 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":118:4:118:5|Pruning unused bits 15 to 13 of r_ADC_Word_5(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":118:4:118:5|Pruning unused bits 4 to 0 of r_ADC_Word_5(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

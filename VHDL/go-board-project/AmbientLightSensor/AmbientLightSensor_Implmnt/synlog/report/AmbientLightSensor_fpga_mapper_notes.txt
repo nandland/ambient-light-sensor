@@ -1,0 +1,16 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+@N: BN362 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master.vhd":97:4:97:5|Removing sequential instance r_Leading_Edge (in view: work.SPI_Master(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master.vhd":156:4:156:5|Removing sequential instance r_TX_Bit_Count[2:0] (in view: work.SPI_Master(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: MO231 :"c:\users\russellm\dropbox\nandland\modules\ambientlightsensor\vhdl\src\light_sensor_als.vhd":108:4:108:5|Found counter in view:work.Light_Sensor_ALS(rtl) instance r_LED_Count[7:0] 
+@N: MO231 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master_with_single_cs.vhd":108:4:108:5|Found counter in view:work.SPI_Master_With_Single_CS(rtl) instance r_CS_Inactive_Count[6:0] 
+@N: MO231 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master.vhd":97:4:97:5|Found counter in view:work.SPI_Master(rtl) instance r_SPI_Clk_Edges[4:0] 
+@N: FX1016 :"c:\users\russellm\dropbox\nandland\modules\ambientlightsensor\vhdl\src\light_sensor_als.vhd":22:4:22:8|SB_GB_IO inserted on the port i_Clk.
+@N: FX1016 :"c:\users\russellm\dropbox\nandland\modules\ambientlightsensor\vhdl\src\light_sensor_als.vhd":21:4:21:13|SB_GB_IO inserted on the port i_Switch_1.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.edf
+@N: MT615 |Found clock i_Clk with period 40.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

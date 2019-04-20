@@ -1,0 +1,35 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   SPI_Master   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     37                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block SPI_Master:	37 (32.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       46                 100 %                
+CARRYS     4                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block SPI_Master:	50 (43.86 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     25                 100 %                
+=================================================
+Total IO PADS in the block SPI_Master:	25 (21.93 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

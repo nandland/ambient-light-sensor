@@ -1,0 +1,81 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Sat Mar 16 14:32:21 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Light_Sensor_ALS"
+Constraint File(s):      "C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\Go_Board_Clock_Constraint.sdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 1 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+i_Clk        i_Clk      |     40.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:i_SPI_MISO
+p:i_Switch_1
+p:o_SPI_CS_n
+p:o_SPI_Clk
+p:o_SPI_MOSI
+p:o_Segment1_A
+p:o_Segment1_B
+p:o_Segment1_C
+p:o_Segment1_D
+p:o_Segment1_E
+p:o_Segment1_F
+p:o_Segment1_G
+p:o_Segment2_A
+p:o_Segment2_B
+p:o_Segment2_C
+p:o_Segment2_D
+p:o_Segment2_E
+p:o_Segment2_F
+p:o_Segment2_G
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

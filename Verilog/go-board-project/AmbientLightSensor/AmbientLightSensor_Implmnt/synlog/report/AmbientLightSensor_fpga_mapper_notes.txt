@@ -1,0 +1,13 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+@N: BN362 :"c:\users\russell\dropbox\nandland\modules\spi_master\verilog\source\spi_master.v":86:2:86:7|Removing sequential instance r_Leading_Edge of view:PrimLib.dffr(prim) in hierarchy view:work.SPI_Master_3s_5s(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\russell\dropbox\nandland\modules\spi_master\verilog\source\spi_master.v":164:2:164:7|Removing sequential instance r_TX_Bit_Count[2:0] of view:PrimLib.dffs(prim) in hierarchy view:work.SPI_Master_3s_5s(verilog) because there are no references to its outputs 
+@N: FX1016 :"c:\users\russell\dropbox\nandland\modules\ambientlightsensor\verilog\source\light_sensor_als.v":18:10:18:14|SB_GB_IO inserted on the port i_Clk.
+@N: FX1016 :"c:\users\russell\dropbox\nandland\modules\ambientlightsensor\verilog\source\light_sensor_als.v":17:10:17:19|SB_GB_IO inserted on the port i_Switch_1.
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

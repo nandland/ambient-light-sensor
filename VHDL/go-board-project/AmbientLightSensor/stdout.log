@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2017.08\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2017.08\synpbase
+Hostname:    ACC-00029
+Date:        Sat Mar 16 14:32:18 2019
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch AmbientLightSensor_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.srr"
+Running: AmbientLightSensor_Implmnt in foreground
+
+Running AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+
+Running: compile (Compile) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:18 2019
+
+Running: compile_flow (Compile Process) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:18 2019
+
+Running: compiler (Compile Input) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:18 2019
+Copied C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_comp.srs to C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.srs
+
+compiler completed
+# Sat Mar 16 14:32:20 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:20 2019
+
+multi_srs_gen completed
+# Sat Mar 16 14:32:20 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_mult.srs to C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.srs
+Complete: Compile Process on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+
+Running: premap (Pre-mapping) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:20 2019
+
+premap completed
+# Sat Mar 16 14:32:21 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+
+Running: map (Map) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:21 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+# Sat Mar 16 14:32:21 2019
+Copied C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_m.srm to C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.srm
+
+fpga_mapper completed
+# Sat Mar 16 14:32:23 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Map on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+Complete: Logic Synthesis on AmbientLightSensor_syn|AmbientLightSensor_Implmnt
+
+exit status=0
+
+exit status=0
+

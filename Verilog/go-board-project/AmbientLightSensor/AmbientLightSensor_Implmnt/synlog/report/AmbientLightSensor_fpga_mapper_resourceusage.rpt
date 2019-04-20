@@ -1,0 +1,28 @@
+---------------------------------------
+Resource Usage Report for Light_Sensor_ALS 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             2 uses
+SB_CARRY        25 uses
+SB_DFF          20 uses
+SB_DFFER        1 use
+SB_DFFR         27 uses
+SB_DFFS         9 uses
+VCC             2 uses
+SB_LUT4         86 uses
+
+I/O ports: 20
+I/O primitives: 20
+SB_GB_IO       2 uses
+SB_IO          18 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   57 (4%)
+
+Mapping Summary:
+Total  LUTs: 86 (6%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 86 = 86 
+

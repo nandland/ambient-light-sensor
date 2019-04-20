@@ -1,0 +1,76 @@
+Synopsys HDL Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\lscc\SBTools\synpbase\lib\generic\sb_ice40.v"
+@I::"C:\lscc\SBTools\synpbase\lib\vlog\umr_capim.v"
+@I::"C:\lscc\SBTools\synpbase\lib\vlog\scemi_objects.v"
+@I::"C:\lscc\SBTools\synpbase\lib\vlog\scemi_pipes.svh"
+@I::"C:\lscc\SBTools\synpbase\lib\vlog\hypermods.v"
+@I::"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v"
+@I::"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master.v"
+@I::"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master_With_Single_CS.v"
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module Light_Sensor_ALS
+@N: CG364 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master.v":33:7:33:16|Synthesizing module SPI_Master
+
+	SPI_MODE=32'b00000000000000000000000000000011
+	CLKS_PER_HALF_BIT=32'b00000000000000000000000000000101
+   Generated name = SPI_Master_3s_5s
+
+@W: CL169 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master.v":144:2:144:7|Pruning register r_TX_DV 
+
+@N: CG364 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master_With_Single_CS.v":35:7:35:31|Synthesizing module SPI_Master_With_Single_CS
+
+	SPI_MODE=32'b00000000000000000000000000000011
+	CLKS_PER_HALF_BIT=32'b00000000000000000000000000000101
+	MAX_BYTES_PER_CS=32'b00000000000000000000000000000010
+	CS_INACTIVE_CLKS=32'b00000000000000000000000001100100
+	IDLE=2'b00
+	TRANSFER=2'b01
+	CS_INACTIVE=2'b10
+   Generated name = SPI_Master_With_Single_CS_3s_5s_2s_100s_0_1_2
+
+@N: CG364 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":14:7:14:22|Synthesizing module Light_Sensor_ALS
+
+@W: CL271 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":110:2:110:7|Pruning bits 15 to 13 of r_ADC_Word_6[15:0] -- not in use ...
+
+@W: CL271 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":110:2:110:7|Pruning bits 4 to 0 of r_ADC_Word_6[15:0] -- not in use ...
+
+@N: CL201 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master_With_Single_CS.v":100:2:100:7|Trying to extract state machine for register r_SM_CS
+Extracted state machine for register r_SM_CS
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 30 10:36:10 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":14:7:14:22|Selected library: work cell: Light_Sensor_ALS view verilog as top level
+@N: NF107 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":14:7:14:22|Selected library: work cell: Light_Sensor_ALS view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 30 10:36:10 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 30 10:36:10 2019
+
+###########################################################]

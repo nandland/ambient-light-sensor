@@ -1,0 +1,486 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2017.08\synpbase
+#OS: Windows 8 6.2
+#Hostname: ACC-00029
+
+# Sat Mar 16 14:32:18 2019
+
+#Implementation: AmbientLightSensor_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":18:7:18:22|Top entity is set to Light_Sensor_ALS.
+File C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd changed - recompiling
+File C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd changed - recompiling
+File C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd changed - recompiling
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":161:9:161:18|o_tx_ready is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":187:9:187:18|o_tx_ready is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":158:12:158:18|o_rx_dv is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":159:48:159:57|o_rx_count is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":18:7:18:22|Synthesizing work.light_sensor_als.rtl.
+@N: CD630 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":39:7:39:31|Synthesizing work.spi_master_with_single_cs.rtl.
+@N: CD233 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":72:15:72:16|Using sequential encoding for type t_sm_cs.
+@N: CD604 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":144:8:144:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":37:7:37:16|Synthesizing work.spi_master.rtl.
+@W: CG296 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":95:19:95:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":102:25:102:30|Referenced variable w_cpol is not in sensitivity list.
+@W: CG296 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":201:14:201:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master.vhd":204:20:204:25|Referenced variable w_cpol is not in sensitivity list.
+Post processing for work.spi_master.rtl
+Post processing for work.spi_master_with_single_cs.rtl
+Post processing for work.light_sensor_als.rtl
+@W: CL271 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":118:4:118:5|Pruning unused bits 15 to 13 of r_ADC_Word_5(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":118:4:118:5|Pruning unused bits 4 to 0 of r_ADC_Word_5(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\russellm\Dropbox\nandland\modules\SPI_Master\VHDL\source\SPI_Master_With_Single_CS.vhd":108:4:108:5|Trying to extract state machine for register r_SM_CS.
+Extracted state machine for register r_SM_CS
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 16 14:32:18 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":18:7:18:22|Selected library: work cell: Light_Sensor_ALS view rtl as top level
+@N: NF107 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":18:7:18:22|Selected library: work cell: Light_Sensor_ALS view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 16 14:32:18 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 16 14:32:18 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":18:7:18:22|Selected library: work cell: Light_Sensor_ALS view rtl as top level
+@N: NF107 :"C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\src\Light_Sensor_ALS.vhd":18:7:18:22|Selected library: work cell: Light_Sensor_ALS view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 16 14:32:20 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Mar 16 14:32:20 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\Go_Board_Clock_Constraint.sdc
+@L: C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor_scck.rpt 
+Printing clock  summary report in "C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist Light_Sensor_ALS
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock        Clock                Clock
+Clock     Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------
+i_Clk     25.0 MHz      40.000        declared     default_clkgroup     61   
+=============================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Encoding state machine r_SM_CS[0:2] (in view: work.SPI_Master_With_Single_CS(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 16 14:32:21 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Mar 16 14:32:21 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            i_Clk
+
+@N: BN362 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master.vhd":97:4:97:5|Removing sequential instance r_Leading_Edge (in view: work.SPI_Master(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master.vhd":156:4:156:5|Removing sequential instance r_TX_Bit_Count[2:0] (in view: work.SPI_Master(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N: MO231 :"c:\users\russellm\dropbox\nandland\modules\ambientlightsensor\vhdl\src\light_sensor_als.vhd":108:4:108:5|Found counter in view:work.Light_Sensor_ALS(rtl) instance r_LED_Count[7:0] 
+Encoding state machine r_SM_CS[0:2] (in view: work.SPI_Master_With_Single_CS(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master_with_single_cs.vhd":108:4:108:5|Found counter in view:work.SPI_Master_With_Single_CS(rtl) instance r_CS_Inactive_Count[6:0] 
+@N: MO231 :"c:\users\russellm\dropbox\nandland\modules\spi_master\vhdl\source\spi_master.vhd":97:4:97:5|Found counter in view:work.SPI_Master(rtl) instance r_SPI_Clk_Edges[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    34.13ns		  98 /        56
+@N: FX1016 :"c:\users\russellm\dropbox\nandland\modules\ambientlightsensor\vhdl\src\light_sensor_als.vhd":22:4:22:8|SB_GB_IO inserted on the port i_Clk.
+@N: FX1016 :"c:\users\russellm\dropbox\nandland\modules\ambientlightsensor\vhdl\src\light_sensor_als.vhd":21:4:21:13|SB_GB_IO inserted on the port i_Switch_1.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 56 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
+----------------------------------------------------------------------------------------
+@K:CKID0001       i_Clk_ibuf_gb_io     SB_GB_IO               56         r_Master_TX_DV 
+========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 133MB)
+
+Writing Analyst data base C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+@N: MT615 |Found clock i_Clk with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 16 14:32:23 2019
+#
+
+
+Top view:               Light_Sensor_ALS
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\russellm\Dropbox\nandland\modules\AmbientLightSensor\VHDL\go-board-project\AmbientLightSensor\Go_Board_Clock_Constraint.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 30.404
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      104.2 MHz     40.000        9.596         30.404     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  40.000      30.404  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: i_Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                Starting                                                     Arrival           
+Instance                                                        Reference     Type        Pin     Net                        Time        Slack 
+                                                                Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[0]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Edges[0]         0.540       30.404
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[3]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Edges[3]         0.540       30.453
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[1]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Edges[1]         0.540       32.230
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[2]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Edges[2]         0.540       32.259
+SPI_Master_With_Single_CS_1.r_SM_CS[0]                          i_Clk         SB_DFFR     Q       r_SM_CS[0]                 0.540       32.280
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[0]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Count[0]         0.540       32.280
+SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[1]              i_Clk         SB_DFFR     Q       r_CS_Inactive_Count[1]     0.540       32.301
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[4]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Edges[4]         0.540       32.322
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[1]     i_Clk         SB_DFFR     Q       r_SPI_Clk_Count[1]         0.540       32.329
+SPI_Master_With_Single_CS_1.r_TX_Count[0]                       i_Clk         SB_DFFR     Q       r_TX_Count[0]              0.540       32.329
+===============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                Starting                                                    Required           
+Instance                                                        Reference     Type        Pin     Net                       Time         Slack 
+                                                                Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[2]     i_Clk         SB_DFFR     D       r_SPI_Clk_Count_1         39.895       30.404
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[1]     i_Clk         SB_DFFR     D       r_SPI_Clk_Count_0         39.895       30.453
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[0]     i_Clk         SB_DFFR     D       r_SPI_Clk_Edges_0         39.895       30.474
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[1]     i_Clk         SB_DFFR     D       r_SPI_Clk_Edges_1         39.895       30.474
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[2]     i_Clk         SB_DFFR     D       r_SPI_Clk_Edges_2         39.895       30.474
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[3]     i_Clk         SB_DFFR     D       r_SPI_Clk_Edges_3         39.895       30.474
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[4]     i_Clk         SB_DFFR     D       r_SPI_Clk_Edges_4         39.895       30.474
+SPI_Master_With_Single_CS_1.SPI_Master_1.o_TX_Ready             i_Clk         SB_DFFR     D       o_TX_Ready_1              39.895       32.160
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[0]     i_Clk         SB_DFFR     D       r_SPI_Clk_Count           39.895       32.230
+SPI_Master_With_Single_CS_1.r_CS_Inactive_Count[0]              i_Clk         SB_DFFR     D       r_CS_Inactive_Count_0     39.895       32.280
+===============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.895
+
+    - Propagation time:                      9.491
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     30.404
+
+    Number of logic level(s):                4
+    Starting point:                          SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[0] / Q
+    Ending point:                            SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[2] / D
+    The start point is clocked by            i_Clk [rising] on pin C
+    The end   point is clocked by            i_Clk [rising] on pin C
+
+Instance / Net                                                                       Pin      Pin               Arrival     No. of    
+Name                                                                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges[0]              SB_DFFR     Q        Out     0.540     0.540       -         
+r_SPI_Clk_Edges[0]                                                       Net         -        -       1.599     -           3         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNI3DDL[0]      SB_LUT4     I0       In      -         2.139       -         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNI3DDL[0]      SB_LUT4     O        Out     0.449     2.588       -         
+un2lto4_1                                                                Net         -        -       1.371     -           1         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNIAJHL1[4]     SB_LUT4     I0       In      -         3.959       -         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNIAJHL1[4]     SB_LUT4     O        Out     0.449     4.408       -         
+un2_0                                                                    Net         -        -       1.371     -           7         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNIB3AM1[4]     SB_LUT4     I0       In      -         5.779       -         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Edges_RNIB3AM1[4]     SB_LUT4     O        Out     0.386     6.164       -         
+o_tx_ready2                                                              Net         -        -       1.371     -           2         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO[2]          SB_LUT4     I0       In      -         7.535       -         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count_RNO[2]          SB_LUT4     O        Out     0.449     7.984       -         
+r_SPI_Clk_Count_1                                                        Net         -        -       1.507     -           1         
+SPI_Master_With_Single_CS_1.SPI_Master_1.r_SPI_Clk_Count[2]              SB_DFFR     D        In      -         9.491       -         
+======================================================================================================================================
+Total path delay (propagation time + setup) of 9.596 is 2.377(24.8%) logic and 7.219(75.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for Light_Sensor_ALS 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             2 uses
+SB_CARRY        25 uses
+SB_DFF          19 uses
+SB_DFFER        1 use
+SB_DFFR         27 uses
+SB_DFFS         9 uses
+VCC             2 uses
+SB_LUT4         86 uses
+
+I/O ports: 20
+I/O primitives: 20
+SB_GB_IO       2 uses
+SB_IO          18 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   56 (4%)
+Total load per clock:
+   i_Clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 86 (6%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 86 = 86 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 16 14:32:23 2019
+
+###########################################################]

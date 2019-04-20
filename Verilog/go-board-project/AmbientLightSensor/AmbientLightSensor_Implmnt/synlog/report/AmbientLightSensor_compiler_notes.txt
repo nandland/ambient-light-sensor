@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master.v":33:7:33:16|Synthesizing module SPI_Master
+@N: CG364 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master_With_Single_CS.v":35:7:35:31|Synthesizing module SPI_Master_With_Single_CS
+@N: CG364 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":14:7:14:22|Synthesizing module Light_Sensor_ALS
+@N: CL201 :"C:\Users\Russell\Dropbox\nandland\modules\SPI_Master\Verilog\source\SPI_Master_With_Single_CS.v":100:2:100:7|Trying to extract state machine for register r_SM_CS
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":14:7:14:22|Selected library: work cell: Light_Sensor_ALS view verilog as top level
+@N: NF107 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\source\Light_Sensor_ALS.v":14:7:14:22|Selected library: work cell: Light_Sensor_ALS view verilog as top level
+

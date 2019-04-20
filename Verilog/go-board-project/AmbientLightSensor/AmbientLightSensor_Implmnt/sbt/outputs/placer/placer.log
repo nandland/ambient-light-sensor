@@ -1,0 +1,150 @@
+* ******************************************************************************
+
+* iCEcube Placer
+
+* Version:            2014.12.27052
+
+* Build Date:         Dec  8 2014 15:08:49
+
+* File Generated:     Mar 30 2019 10:36:18
+
+* Purpose:            
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : C:\lscc\SBTools\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\netlist\oadb-Light_Sensor_ALS --outdir C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\outputs\placer --device-file C:\lscc\SBTools\sbt_backend\devices\ICE40P01.dev --package VQ100 --deviceMarketName iCE40HX1K --sdc-file C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\SBTools\sbt_backend\devices\ice40HX1K.lib --effort_level std --out-sdc-file C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\outputs\placer\Light_Sensor_ALS_pl.sdc
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\SBTools\sbt_backend\devices\ICE40P01.dev
+Package              - VQ100
+Design database      - C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\netlist\oadb-Light_Sensor_ALS
+SDC file             - C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\SBTools\sbt_backend\devices\ice40HX1K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: C:/Users/Russell/Dropbox/nandland/modules/AmbientLightSensor/Verilog/go-board-project/AmbientLightSensor/AmbientLightSensor_Implmnt\sbt\netlist\oadb-Light_Sensor_ALS/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\SBTools\sbt_backend\devices\ICE40P01.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	86
+    Number of DFFs      	:	57
+    Number of Carrys    	:	25
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	18
+    Number of GBIOs     	:	2
+    Number of GBs       	:	0
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+W2216: SB_GB_IO 'i_Switch_1_ibuf_gb_io' is assigned to a non-GB pin '53'. Replacing it with SB_IO 'i_Switch_1_ibuf_gb_io' and SB_GB 'i_Switch_1_ibuf_gb_io_gb'
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	3
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	1
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	8
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	12
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	99
+    Number of DFFs      	:	57
+    Number of Carrys    	:	25
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	50
+        LUT, DFF and CARRY	:	7
+    Combinational LogicCells
+        Only LUT         	:	26
+        CARRY Only       	:	2
+        LUT with CARRY   	:	16
+    LogicCells                  :	101/1280
+    PLBs                        :	15/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	20/72
+    PLLs                        :	0/0
+
+
+I2088: Phase 3, elapsed time : 0.3 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 12.5 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	99
+    Number of DFFs      	:	57
+    Number of Carrys    	:	25
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	19
+    Number of GBIOs     	:	1
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	101/1280
+    PLBs                        :	22/160
+    BRAMs                       :	0/16
+    IOs and GBIOs               :	20/72
+    PLLs                        :	0/0
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: i_Clk | Frequency: 209.98 MHz | Target: 25.00 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 13.3 sec.
+

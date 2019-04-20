@@ -1,0 +1,52 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1061R, Built Nov 12 2014 09:52:26
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\Go_Board_Clock_Constraint.sdc
+@L: C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor_scck.rpt 
+Printing clock  summary report in "C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist Light_Sensor_ALS
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start     Requested     Requested     Clock        Clock           
+Clock     Frequency     Period        Type         Group           
+-------------------------------------------------------------------
+i_Clk     25.0 MHz      40.000        declared     default_clkgroup
+===================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 30 10:36:13 2019
+
+###########################################################]

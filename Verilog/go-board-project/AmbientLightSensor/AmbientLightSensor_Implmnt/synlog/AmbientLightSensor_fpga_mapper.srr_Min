@@ -1,0 +1,134 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Mar 30 10:36:14 2019
+#
+
+
+Top view:               Light_Sensor_ALS
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\Go_Board_Clock_Constraint.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 1.330
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      105.7 MHz     40.000        9.463         30.537     declared     default_clkgroup
+===================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  0.000       1.330  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: i_Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                 Starting                                             Arrival          
+Instance                                         Reference     Type        Pin     Net                Time        Slack
+                                                 Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------------
+r_ADC_Word[12]                                   i_Clk         SB_DFF      Q       r_ADC_Word[12]     0.378       1.330
+r_ADC_Word[11]                                   i_Clk         SB_DFF      Q       r_ADC_Word[11]     0.378       1.428
+r_ADC_Word[10]                                   i_Clk         SB_DFF      Q       r_ADC_Word[10]     0.378       1.526
+r_ADC_Word[9]                                    i_Clk         SB_DFF      Q       r_ADC_Word[9]      0.378       1.624
+r_ADC_Word[8]                                    i_Clk         SB_DFF      Q       r_ADC_Word[8]      0.378       1.722
+r_ADC_Word[7]                                    i_Clk         SB_DFF      Q       r_ADC_Word[7]      0.378       1.820
+r_ADC_Word[6]                                    i_Clk         SB_DFF      Q       r_ADC_Word[6]      0.378       1.918
+r_ADC_Word[5]                                    i_Clk         SB_DFF      Q       r_ADC_Word[5]      0.378       2.017
+SPI_Master_CS_Inst.SPI_Master_Inst.r_SPI_Clk     i_Clk         SB_DFFS     Q       r_SPI_Clk          0.378       2.102
+r_LED_Count[0]                                   i_Clk         SB_DFF      Q       r_LED_Count[0]     0.378       2.614
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                 Starting                                                    Required          
+Instance                                         Reference     Type        Pin     Net                       Time         Slack
+                                                 Clock                                                                         
+-------------------------------------------------------------------------------------------------------------------------------
+r_LED_Enable                                     i_Clk         SB_DFF      D       r_LED_Enable_2            0.074        1.330
+SPI_Master_CS_Inst.SPI_Master_Inst.o_SPI_Clk     i_Clk         SB_DFFS     D       r_SPI_Clk                 0.074        2.102
+r_LED_Count[1]                                   i_Clk         SB_DFF      D       r_LED_Count_s[1]          0.074        2.614
+r_LED_Count[2]                                   i_Clk         SB_DFF      D       r_LED_Count_s[2]          0.074        2.614
+r_LED_Count[3]                                   i_Clk         SB_DFF      D       r_LED_Count_s[3]          0.074        2.614
+r_LED_Count[4]                                   i_Clk         SB_DFF      D       r_LED_Count_s[4]          0.074        2.614
+r_LED_Count[5]                                   i_Clk         SB_DFF      D       r_LED_Count_s[5]          0.074        2.614
+r_LED_Count[6]                                   i_Clk         SB_DFF      D       r_LED_Count_s[6]          0.074        2.614
+r_LED_Count[7]                                   i_Clk         SB_DFF      D       r_LED_Count_s[7]          0.074        2.614
+SPI_Master_CS_Inst.r_CS_Inactive_Count[1]        i_Clk         SB_DFFR     D       r_CS_Inactive_Count_1     0.074        2.673
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.403
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     1.330
+
+    Number of logic level(s):                1
+    Starting point:                          r_ADC_Word[12] / Q
+    Ending point:                            r_LED_Enable / D
+    The start point is clocked by            i_Clk [rising] on pin C
+    The end   point is clocked by            i_Clk [rising] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+r_ADC_Word[12]             SB_DFF       Q        Out     0.378     0.378       -         
+r_ADC_Word[12]             Net          -        -       0.584     -           3         
+r_LED_Enable_2_cry_7_c     SB_CARRY     I1       In      -         0.962       -         
+r_LED_Enable_2_cry_7_c     SB_CARRY     CO       Out     0.160     1.122       -         
+r_LED_Enable_2             Net          -        -       0.281     -           1         
+r_LED_Enable               SB_DFF       D        In      -         1.403       -         
+=========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

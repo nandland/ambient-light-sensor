@@ -1,0 +1,5 @@
+
+#1001 : create_clock -period 40.00 -name i_Clk [get_ports i_Clk]
+# line 12 in c:/users/russellm/dropbox/nandland/modules/ambientlightsensor/vhdl/go-board-project/ambientlightsensor/go_board_clock_constraint.sdc
+
+create_clock -period {40.000} -name {i_Clk} [get_ports {i_Clk}]

@@ -1,0 +1,28 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1061R, built Nov 12 2014
+# Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Sat Mar 30 10:36:12 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Light_Sensor_ALS"
+Constraint File(s):      "C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\Go_Board_Clock_Constraint.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start     Requested     Requested     Clock        Clock           
+Clock     Frequency     Period        Type         Group           
+-------------------------------------------------------------------
+i_Clk     25.0 MHz      40.000        declared     default_clkgroup
+===================================================================

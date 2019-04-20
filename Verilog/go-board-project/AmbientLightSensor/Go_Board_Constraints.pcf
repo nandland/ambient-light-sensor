@@ -1,0 +1,31 @@
+# ##############################################################################
+# Constraints for Ambient Light Sensor project
+# ##############################################################################
+
+### Main FPGA Clock
+set_io i_Clk 15
+
+### 7 Segment Outputs
+set_io o_Segment1_A 3
+set_io o_Segment1_B 4
+set_io o_Segment1_C 93
+set_io o_Segment1_D 91
+set_io o_Segment1_E 90
+set_io o_Segment1_F 1
+set_io o_Segment1_G 2
+set_io o_Segment2_A 100
+set_io o_Segment2_B 99
+set_io o_Segment2_C 97
+set_io o_Segment2_D 95
+set_io o_Segment2_E 94
+set_io o_Segment2_F 8
+set_io o_Segment2_G 96
+
+## Push-Button Switches
+set_io i_Switch_1 53
+
+## PMOD Signals
+set_io o_SPI_CS_n 65
+set_io o_SPI_MOSI 64
+set_io i_SPI_MISO 63
+set_io o_SPI_Clk 62
