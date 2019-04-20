@@ -1,7 +1,0 @@
-C:\lscc\SBTools\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_comp.srs  -osyn  C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_mult.srs  -log  C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synlog\AmbientLightSensor_multi_srs_gen.srr 
-rc:0 success:1
-C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_comp.srs|i|1553956570|9503
-C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synwork\AmbientLightSensor_mult.srs|o|1553956572|4262
-C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\synlog\AmbientLightSensor_multi_srs_gen.srr|o|1553956572|1021
-C:\lscc\SBTools\synpbase\bin\syn_nfilter.exe|i|1421730218|2752000
-C:\lscc\SBTools\synpbase\bin64\syn_nfilter.exe|i|1421730219|6354432

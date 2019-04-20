@@ -1,4 +1,0 @@
-#0 define_false_path
-#1001 create_clock -period {40.00} -name {i_Clk} {[get_ports i_Clk]}
-create_clock -period {40.000}  -name {i_Clk}  [get_ports {i_Clk}] 
-

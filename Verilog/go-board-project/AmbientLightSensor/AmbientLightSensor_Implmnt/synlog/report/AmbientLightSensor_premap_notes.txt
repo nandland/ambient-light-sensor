@@ -1,3 +1,0 @@
-@N: MF248 |Running in 64-bit mode.
-@N: MF666 |Clock conversion enabled 
-@N: BN225 |Writing default property annotation file C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\Verilog\go-board-project\AmbientLightSensor\AmbientLightSensor_Implmnt\AmbientLightSensor.sap.

@@ -1,4 +1,0 @@
-@E: CS109 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\source\Light_Sensor_ALS.v":59:2:59:4|Expecting module level statement
-@E: CG342 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\source\Light_Sensor_ALS.v":132:6:132:15|Expecting target variable, found r_LED_Test -- possible misspelling
-@E: CS187 :"C:\Users\Russell\Dropbox\nandland\modules\AmbientLightSensor\source\Light_Sensor_ALS.v":158:0:158:8|Expecting endmodule
-
